@@ -9,7 +9,7 @@ navigation:
   url: /
 - name: post
   slug: post
-  url: /pages
+  url: /post
 - name: archives
   slug: archives
   url: /archives
