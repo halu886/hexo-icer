@@ -7,21 +7,15 @@ navigation:
 - name: home
   slug: home
   url: /
-- name: web development
-  slug: web development
-  url: /tags/web-development/
-- name: soft
-  slug: soft
-  url: /tags/soft/
-- name: os
-  slug: os
-  url: /tags/os/
+- name: post
+  slug: post
+  url: /pages
 - name: archives
   slug: archives
   url: /archives
-- name: README
-  slug: README
-  url: /README/
+- name: categories
+  slug: categories
+  url: /categories
 
 # Friendly link
 links:

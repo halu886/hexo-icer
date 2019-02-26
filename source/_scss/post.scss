@@ -8,6 +8,7 @@
 .post {
   background: $white;
   padding: 20px 35px;
+  padding-bottom: 50px;
   margin-bottom: 45px;
   transition: box-shadow 0.3s ease-in-out 0s;  
 
@@ -23,7 +24,7 @@
       font-size: 22px;
       line-height: 22px;
       transition: font-size 0.3s ease-in-out 0s;
-      
+      margin-bottom: 30px;
       &:hover {
         font-size: 23px;
       }
