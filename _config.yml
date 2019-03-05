@@ -7,16 +7,15 @@ navigation:
 - name: home
   slug: home
   url: /
-- name: post
-  slug: post
-  url: /post
-- name: archives
-  slug: archives
-  url: /archives
+- name: blog
+  slug: blog
+  url: /blog
 - name: categories
   slug: categories
   url: /categories
-
+- name: tag
+  slug: tag
+  url: /tags
 # Friendly link
 links:
   - name: Tian1x0
