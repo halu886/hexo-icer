@@ -7,22 +7,12 @@ navigation:
 - name: home
   slug: home
   url: /
-- name: web development
-  slug: web development
-  url: /tags/web-development/
-- name: soft
-  slug: soft
-  url: /tags/soft/
-- name: os
-  slug: os
-  url: /tags/os/
 - name: archives
   slug: archives
   url: /archives
-- name: README
-  slug: README
-  url: /README/
-
+- name: post
+  slug: post
+  url: /categories
 # Friendly link
 links:
   - name: Tian1x0
