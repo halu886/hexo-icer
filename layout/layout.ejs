@@ -12,8 +12,9 @@
       <%- body %>
       <script>NProgress.set(0.6);</script>
     </main>
-    
+    <% if(!is_home()){%> 
     <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+    <% } %>
     <script>NProgress.set(0.8);</script>
     
   </div>

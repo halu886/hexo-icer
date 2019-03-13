@@ -21,7 +21,7 @@
 <%if( is_home()){%>
   <section>
     <% const homePage = site.tags.findOne({name:"home"}).posts.findOne({})%>
-    <%- partial('article',{post:homePage,notShowHeader:true})%>
+    <%- partial('article',{post:homePage,showSubtitle:false})%>
   </section>
 <% } else {%>
   <section class="post-list">
