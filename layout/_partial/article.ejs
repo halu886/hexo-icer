@@ -1,6 +1,7 @@
 <article id="<%= post.layout %>-<%= post.slug %>"
   class="post article white-box article-type-<%= post.layout %> animated fade-in-top"
   itemscope itemprop="blogPost">
+  <% if(!notShowHeader){%>
   <section class="post-header article-header">
     <h2 class="title">
         <a href="<%- url_for(post.path) %>">
@@ -23,17 +24,7 @@
           <% } %>
       </div>
   </section>
-  <section class="ad">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- 728*90 -->
-      <ins class="adsbygoogle"
-          style="display:inline-block;width:728px;height:90px"
-          data-ad-client="ca-pub-4068035403937094"
-          data-ad-slot="1123542156"></ins>
-      <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </section>
+  <% }%>
   <section class="content">
     <div class="article-entry" itemprop="articleBody">
       <%- post.content %>
